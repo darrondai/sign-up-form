@@ -6,5 +6,67 @@
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="graphic">
+      <div class="logo"></div>
+      <div class="img-credit">
+        Photo by
+        <a
+          href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Halie West
+        </a>
+        on
+        <a
+          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Unsplash
+        </a>
+      </div>
+    </div>
+    <div class="main-content">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.<br />Sign up
+        <em>now</em> to get started.
+      </p>
+      <p>You <em>know</em> you want to.</p>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Let's do this!</legend>
+          <ul>
+            <li>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </li>
+            <li>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" required />
+            </li>
+            <li>
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" required />
+            </li>
+            <li>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" name="phone-number" id="phone-number" />
+            </li>
+            <li>
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" required />
+            </li>
+            <li>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+      <button>Create Account</button>
+      <p>Already have an account? <a href="">Log In</a></p>
+    </div>
+  </body>
 </html>
