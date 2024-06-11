@@ -74,3 +74,18 @@ h6 {
 body {
   display: flex;
 }
+
+.form-elements {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 16px 64px;
+}
+
+.form-elements > li {
+  width: calc(100% / 3);
+}
+
+.form-elements label {
+  display: block;
+}
