@@ -82,7 +82,7 @@ body {
   background-color: #f9fafb;
 }
 
-.main-content > p {
+.main-content p {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -90,10 +90,6 @@ body {
 .main-content > p:last-child {
   font-weight: normal;
   font-size: 1.1rem;
-}
-
-legend {
-  font-weight: bold;
 }
 
 .form-elements {
