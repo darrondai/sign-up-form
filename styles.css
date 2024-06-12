@@ -78,6 +78,11 @@ body {
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 15vh 0;
+  justify-content: space-around;
   background-color: #f9fafb;
 }
 
@@ -115,6 +120,7 @@ body {
 }
 
 .main-content button {
+  width: fit-content;
   background-color: #596d48;
   color: white;
   border: none;
