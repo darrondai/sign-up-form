@@ -80,6 +80,9 @@ body {
 
 .graphic {
   flex: 2 2 40%;
+  background-image: url(imgs/green-leaf-plant.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-content {
