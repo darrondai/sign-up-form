@@ -122,24 +122,23 @@ body {
   flex: 3 3 60%;
   display: flex;
   flex-direction: column;
-  padding: 15vh 0;
   justify-content: space-around;
   background-color: #f9fafb;
-}
-
-.main-content p {
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.main-content > p:last-child {
-  font-weight: normal;
-  font-size: 1.1rem;
+.main-content > * {
+  padding: 32px;
+}
+
+.call-to-action > p {
+  width: min(65ch, 100%);
 }
 
 .main-content > form {
   background-color: white;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .form-elements {
@@ -160,15 +159,22 @@ body {
   letter-spacing: 0.1rem;
 }
 
-.main-content button {
+.bottom {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.bottom button {
   width: fit-content;
   background-color: #596d48;
   color: white;
   border: none;
   border-radius: 8px;
   padding: 8px 48px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-p > a {
+.bottom a {
   color: #596d48;
+  text-decoration: none;
 }
