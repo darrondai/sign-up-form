@@ -93,7 +93,7 @@ body {
 
 .logo {
   height: 15vh;
-  margin-top: 128px;
+  margin-top: 256px;
   padding: 16px;
   background-color: rgba(0, 0, 0, 0.5);
 
@@ -146,6 +146,7 @@ body {
   list-style: none;
   flex-wrap: wrap;
   gap: 16px 64px;
+  padding-left: 0px;
 }
 
 .form-elements > li {
