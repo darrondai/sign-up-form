@@ -171,6 +171,23 @@ body {
   letter-spacing: 0.1rem;
 }
 
+.form-elements input {
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.form-elements input:user-invalid {
+  border-color: red;
+}
+
+.form-elements input:focus {
+  outline: none !important;
+  border-color: rgb(0, 102, 255);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .bottom {
   font-weight: 500;
   font-size: 1.1rem;
