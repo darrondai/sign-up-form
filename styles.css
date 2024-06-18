@@ -122,23 +122,35 @@ body {
   flex: 3 3 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 32px;
+
   background-color: #f9fafb;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .main-content > * {
-  padding: 32px;
+  padding: 0px 32px;
+  border: 1px solid #000;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
 }
 
 .call-to-action > p {
   width: min(65ch, 100%);
 }
 
-.main-content > form {
+.sign-up-form {
   background-color: white;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .form-elements {
@@ -146,7 +158,7 @@ body {
   list-style: none;
   flex-wrap: wrap;
   gap: 16px 64px;
-  padding-left: 0px;
+  padding: 32px 0px;
 }
 
 .form-elements > li {
@@ -173,6 +185,7 @@ body {
   border-radius: 8px;
   padding: 8px 48px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 24px;
 }
 
 .bottom a {
