@@ -127,7 +127,7 @@ body {
 
   background-color: #f9fafb;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .main-content > * {
@@ -142,7 +142,7 @@ body {
 }
 
 .call-to-action > p {
-  width: min(65ch, 100%);
+  width: min(53ch, 100%);
 }
 
 .sign-up-form {
